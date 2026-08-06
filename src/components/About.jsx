@@ -38,7 +38,7 @@ const About = () => {
               <li className="list-group-item">🎓 Software Engineering Student</li>
               <li className="list-group-item">📍 Bahir Dar, Ethiopia</li>
               <li className="list-group-item">💻 Frontend Developer</li>
-              <li className="list-group-item">🌐 HTML, CSS, Bootstrap, JavaScript</li>
+              <li className="list-group-item">🌐 HTML, CSS, Bootstrap, JavaScript, React</li>
               <li className="list-group-item">📧 gebreselassiesisay779@gmail.com</li>
             </ul>
           </div>

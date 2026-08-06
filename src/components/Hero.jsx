@@ -57,8 +57,7 @@ const Hero = () => {
             </h3>
             
             <p className="lead text-light-500">
-              I build modern, responsive websites using HTML, CSS, Bootstrap and JavaScript. I'm passionate
-              about solving real-world problems through software.
+            I build modern, responsive web solutions using HTML, CSS, Bootstrap, and JavaScript. As a developer learning React, I combine clean code with a passion for turning complex, real-world problems into elegant software applications.
             </p>
             <a href="#projects" className="btn btn-primary btn-lg me-2 shadow-sm">View Projects</a>
             <a href="/assets/Gebreselassie-CV.pdf" className="btn btn-outline-light btn-lg" download>Download CV</a>

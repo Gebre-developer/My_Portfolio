@@ -61,8 +61,8 @@ const Contact = () => {
               <h4 className="mb-4">Contact Information</h4>
               <p><i className="bi bi-geo-alt-fill text-primary"></i> Bahir Dar, Ethiopia</p>
               <p><i className="bi bi-envelope-fill text-primary"></i> gebreselassiesisay779@gmail.com</p>
-              <p><i className="bi bi-github text-primary"></i> ://github.com</p>
-              <p><i className="bi bi-linkedin text-primary"></i> linkedin.com/in/</p>
+              <p><i className="bi bi-github text-primary"></i> github.com/Gebre-developer</p>
+              <p><i className="bi bi-linkedin text-primary"></i> linkedin.com/in/gebreselassie-sisay-383b9b418</p>
               <p><i className="bi bi-telephone-fill text-primary"></i> +251 91 857 0922</p>
             </div>
           </div>
