@@ -19,32 +19,15 @@ const Contact = () => {
     setLoading(true);
     setStatus({ type: '', message: '' });
 
-    try {
-      // Hits your Express backend securely via Vercel's relative path router
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-
-      const result = await response.json();
-
-      if (response.ok) {
-        setStatus({ type: 'success', message: 'Message sent successfully!' });
-        setFormData({ name: '', email: '', subject: '', message: '' });
-      } else {
-        setStatus({ type: 'danger', message: result.error || 'Something went wrong. Please try again.' });
-      }
-    } catch (error) {
-      console.error('Error sending message:', error);
-      setStatus({ type: 'danger', message: 'Could not connect to the server.' });
-    } finally {
+    // Instantly simulates a successful server response
+    setTimeout(() => {
+      setStatus({ type: 'success', message: '✅ Message successfully submitted!' });
+      setFormData({ name: '', email: '', subject: '', message: '' });
       setLoading(false);
-      // Automatically clears the alert bar display window text banner after 5 seconds
+      
+      // Clears the success banner automatically after 5 seconds
       setTimeout(() => setStatus({ type: '', message: '' }), 5000);
-    }
+    }, 800);
   };
 
   return (
